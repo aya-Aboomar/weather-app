@@ -1,0 +1,203 @@
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #1e202b;
+}
+@media (min-width: 1200px){
+    .container{
+        width: 1170px;
+    }
+}
+.row{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.title .navbar-toggler{
+    border-radius: 20px;
+    --bs-navbar-toggler-focus-width:1px;
+}
+.navbar-toggler:hover,.title .navbar-toggler:hover i{
+    border-color: #009ad8;
+    color: #009ad8;
+}
+.title .navbar-toggler i{
+    color: #fff;
+    padding: 10px 2px;
+}
+.logo-photo{
+    width: 64px;
+    height: 38px;
+    margin-right: 10px;
+}
+.logo-text h1{
+    font-size: 16px;
+    font-weight: 700;
+}
+.logo-text p{
+    font-size: 10px;
+    color: #bfc1c8;
+    width: max-content;
+}
+.title .links li a{
+    padding: 3px 25px;
+    color: white;
+}
+.title .links li a{
+    font-size: 14px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.2s ease-in-out;
+}
+.title .links .btns a, .title .links li a:hover{
+    color: #009ad8;
+    border: 2px solid #009ad8;
+}
+/* start home page  */
+.back-img{
+    background-image: url(../imges/banner.png);
+    height: 350px;
+    padding: 70px 0;
+    background-size: cover;
+}
+input:focus{
+    outline: 0;
+}
+.ser-input{
+    margin-bottom: 70px;
+    position: relative;
+}
+.ser-input input.findInput{
+    background: #1e202b;
+    color: #fff;
+    padding: 20px 50px 20px 20px;
+    border: 0px;
+    border-radius: 45px;
+    width: 100%;
+}
+.ser-input .find-btn{
+    border-radius: 15px;
+    background-color: #009ad8;
+    color: #fff;
+    padding:14px 40px;
+    border: 0;
+    right: 7px;
+    bottom: 6px;
+    top: 6px;
+}
+/* start card table  */
+.cards-table{
+    margin-top: -143px;
+    margin-bottom: 50px;
+}
+.cards-table .cards{
+    background: #323544;
+}
+.cards-table .special{
+    background: #262936;
+}
+.cards-table .cards .main-card{
+    background: #323544;
+    color: #fff;
+}
+.cards-table .cards .special-ground{
+    background: #262936;
+}
+.cards-table .cards .special-card img.sec-image{
+    width: 48px;
+    margin-bottom: 20px;
+}
+.cards-table .cards .main-card .head{
+    background: #0000001a;
+    padding: 10px;
+    color: #bfc1c8;
+}
+.row>*{
+    padding-left: 0;
+    padding-right: 0;
+}
+.cards-table .cards .main-card .contant{
+    padding: 30px 20px;
+}
+.cards-table .cards .special-card .contant{
+    padding: 50px 20px 10px;
+}
+.cards-table .cards .main-card .contant .city{
+    font-size: 18px;
+    color: #bfc1c8;
+}
+.cards-table .cards .main-card .contant .degree{
+    font-size: 90px;
+    margin-right: 30px;
+    font-weight: 700;
+}
+.cards-table .cards .special-card .contant .degree{
+    margin-right: 0;
+}
+.cards-table .cards .main-card .contant .moon-image{
+    width: 90px;
+}
+.cards-table .cards .main-card .contant .state{
+    color: #009ad8;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.cards-table .cards .special-card .contant .state{
+    margin-block: 20px;
+}
+.cards-table .cards .main-card .contant .desc{
+    color: #bfc1c8;
+    font-size: 14px;
+}
+.cards-table .cards .main-card .contant .desc img{
+    width: 21px;
+}
+.cards-table .cards .main-card .contant .desc .left,
+.cards-table .cards .main-card .contant .desc .middle{
+    margin-right: 20px;
+}
+.cards-table .cards .special-card .contant .degree{
+    font-size: 24px;
+}
+.cards-table .cards .main-card .contant .low-degree{
+    font-size: 16px;
+    color: #bfc1c8;
+}
+/* start footer  */
+footer{
+    padding: 50px 0px;
+    background: #262936;
+}
+.ser-input input.footer-input{
+    margin-bottom: 30px;
+}
+.ser-input button.subscribe{
+    padding: 14px;
+    font-size: 14px;
+    bottom: 38px;
+}
+footer .social-links a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    transition: all 0.3s ease-in-out;
+}
+footer .social-links a:hover{
+    background:#009ad8 ;
+    color: #fff;
+}
+footer .social-links a i{
+    margin-top: 10px;
+    font-size: 20px;
+}
+footer .ser-input{
+    margin-bottom: 0;
+}
+footer p.copy-right{
+    color: #bfc1c8;
+    font-size: 14px;
+    line-height: 1.5;
+}
